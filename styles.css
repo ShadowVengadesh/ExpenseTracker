@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.01) url('money_background.jpg') center/cover; /* Updated line with opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+
+/* Rest of your styles... */
+
+
+.balance-container, .transactions-container, .add-transaction-container {
+    margin-bottom: 20px;
+}
+
+.balance-container h2, .transactions-container h2, .add-transaction-container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+li span {
+    color: #888;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
